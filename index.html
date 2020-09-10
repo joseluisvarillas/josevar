@@ -25,65 +25,92 @@
 			<div class="settings-container">
 				<div>
 					<p>Array to sort:</p>
-					<input
-						id="arr"
-						type="text"
-						placeholder="[0, 1, 2, 3, 4, ...] - Minimum length: 2"
+<! DOCTYPE html >
+< html  lang = " en " dir = " ltr " >
+	< cabeza >
+		< meta  charset = " utf-8 " />
+		< meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " >
+		< link  rel = " stylesheet " href = " vendor / normalize.css " />
+		< link  rel = " stylesheet " href = " vendedor / fontawesome / fontawesome.css " />
+		< enlace
+			href = " https://fonts.googleapis.com/css?family=Livvic&display=swap "
+			rel = " hoja de estilo "
+		/>
+		< link  rel = " stylesheet " href = " sass / main.css " />
+		< título > Combinar visualización de ordenación </ título >
+	</ cabeza >
+
+	< cuerpo >
+		< div  id = " configuración " >
+			< div  class = " menu-header " >
+				< div  id = " close-menu " >
+					< i  class = " fas fa-times " > </ i >
+				</ div >
+				< h2 > Configuración </ h2 >
+			</ div >
+
+			< div  class = " settings-container " >
+				< div >
+					< p > Matriz para ordenar: </ p >
+					< entrada
+						id = " arr "
+						tipo = " texto "
+						placeholder = " [0, 1, 2, 3, 4, ...] - Longitud mínima: 2 "
 					/>
-				</div>
+				</ div >
 
-				<div>
-					<p>Animation timeout:</p>
-					<input
-						id="timeout"
-						type="number"
-						placeholder="Miliseconds"
+				< div >
+					< p > Tiempo de espera de la animación: </ p >
+					< entrada
+						id = " tiempo de espera "
+						tipo = " número "
+						placeholder = " Milisegundos "
 					/>
-				</div>
+				</ div >
 
-				<div class="errors">
-					<p id="settings-error"></p>
-				</div>
+				< div  class = " errores " >
+					< p  id = " settings-error " > </ p >
+				</ div >
 
-				<div class="success">
-					<p id="success"></p>
-				</div>
+				< div  class = " éxito " >
+					< p  id = " éxito " > </ p >
+				</ div >
 
-				<button id="save-settings">Save</button>
-			</div>
-		</div>
+				< button  id = " save-settings " > Guardar </ button >
+			</ div >
+		</ div >
 
-		<header>
-			<div class="header-container">
-				<div id="settings-btn">
-					<i class="fas fa-bars"></i>
-				</div>
+		< encabezado >
+			< div  class = " header-container " >
+				< div  id = " settings-btn " >
+					< i  class = " fas fa-bars " > </ i >
+				</ div >
 
-				<div>
-					<h1>Merge Sort Visualization</h1>
-				</div>
-			</div>
-			<div class="gradient-border"></div>
-		</header>
+				< div >
+					< h1 > Combinar visualización de ordenación </ h1 >
+				</ div >
+			</ div >
+			< div  class = " gradiente-borde " > </ div >
+		</ encabezado >
 
-		<main>
-			<section class="animation-zone"></section>
+		< principal >
+			< section  class = " animation-zone " > </ section >
 
-			<section class="errors"><p class="error-msg"></p></section>
+			< section  class = " errores " > < p  class = " error-msg " > </ p > </ section >
 
-			<section class="buttons">
-				<div class="wrapper">
-					<div><button id="sort">Sort</button></div>
-					<div><button id="unsort">Unsort</button></div>
-				</div>
-			</section>
-		</main>
+			< section  class = " botones " >
+				< div  class = " envoltorio " >
+					< div > < button  id = " sort " > Ordenar </ button > </ div >
+					< div > < button  id = " unsort " > Desordenar </ button > </ div >
+				</ div >
+			</ sección >
+		</ main >
 
-		<script src="vendor/fontawesome/fontawesome.js"></script>
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="js/arrays.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/settings.js"></script>
-		<script src="js/animation.js"></script>
-	</body>
-</html>
+		< script  src = " proveedor / fontawesome / fontawesome.js " > </ script >
+		< script  src = " proveedor / jquery / jquery.min.js " > </ script >
+		< script  src = " js / arrays.js " > </ script >
+		< script  src = " js / main.js " > </ script >
+		< script  src = " js / settings.js " > </ script >
+		< script  src = " js / animation.js " > </ script >
+	</ cuerpo >
+</ html >
